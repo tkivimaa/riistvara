@@ -7,7 +7,6 @@
 
 #ifndef BAUD
 #define BAUD 9600
-#define uart3_out 9600
 #endif
 #include <util/setbaud.h>
 
