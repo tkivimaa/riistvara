@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include <stdio.h>
 #include <avr/io.h>
 #include <util/delay.h>
@@ -5,10 +6,18 @@
 #include <assert.h>
 #include "uart.h"
 #define BLINK_DELAY_MS 100
+=======
+#include <avr/io.h>
+#include <util/delay.h>
+
+#define BLINK_DELAY_MS 1000
+
+>>>>>>> 5526a8c6dc440c903e626504a93cc0e4119b5345
 int main (void)
 {
     /* set pin 3 of PORTA for output*/
     DDRA |= _BV(DDA3);
+<<<<<<< HEAD
     /* Init error console as stderr in UART3 and print user code info */
     uart3_init();
     stderr = &uart3_out;
@@ -38,8 +47,20 @@ int main (void)
                 (int) &v - (__brkval == 0 ? (int) &__heap_start : (int) __brkval));
         assert(array);
         /* End test assert */
+=======
+    
+    while(1) {
+        /* set pin 3 high to turn led on */
+        PORTA |= _BV(PORTA3);
+        _delay_ms(BLINK_DELAY_MS);
+        
+>>>>>>> 5526a8c6dc440c903e626504a93cc0e4119b5345
         /* set pin 3 low to turn led off */
         PORTA &= ~_BV(PORTA3);
         _delay_ms(BLINK_DELAY_MS);
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 5526a8c6dc440c903e626504a93cc0e4119b5345

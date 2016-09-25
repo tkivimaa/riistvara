@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Build artefacts
 bin/*
 
@@ -15,6 +16,8 @@ bin/*
 # Prerequisites
 *.d
 
+=======
+>>>>>>> 23fceef9827b24993beeca3ce9d0941a7950b5c2
 # Object files
 *.o
 *.ko
@@ -48,6 +51,7 @@ bin/*
 # Debug files
 *.dSYM/
 *.su
+<<<<<<< HEAD
 
 #
 # Global/Vim.gitignore
@@ -133,3 +137,5 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+=======
+>>>>>>> 23fceef9827b24993beeca3ce9d0941a7950b5c2
