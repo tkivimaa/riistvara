@@ -6,7 +6,7 @@ This wiring schema uses only Tx from Arduino and is suitable to be used as stand
 
 ## Wiring illustration
 
-![Arduino Mega USB UART wiring.png](Arduino-Mega-USB-UART-wiring.png)
+![arduino-mega-usb-uart-wiring.png](arduino-mega-usb-uart-wiring.png)
 
 ## Wiring table
 

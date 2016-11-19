@@ -14,7 +14,7 @@ This shield consists of three logical parts:
 
 Following illustration shows how shield is connected to Arduino mega board.
 
-![Arduino Mega LCD1602 keypad shield placement.png](Arduino-Mega-LCD1602-keypad-shield-placement.png)
+![arduino-mega-lcd1602-keypad-shield-placement.png](arduino-mega-lcd1602-keypad-shield-placement.png)
 
 Image source: [sainsmart.com](http://www.sainsmart.com/media/catalog/product/2/_/2_16_6.jpg)
 
@@ -24,7 +24,7 @@ Additional installation details and tutorials can be found with help of keywords
 
 ## Wiring illustration
 
-![Arduino Mega LCD1602 Keypad shield wiring LCD part.png](Arduino-Mega-LCD1602-keypad-shield-wiring.png)
+![arduino-mega-lcd1602-keypad-shield-wiring.png](arduino-mega-lcd1602-keypad-shield-wiring.png)
 
 Author: [Lauri Võsandi](http://lauri.võsandi.com/arduino/lcd1602-key-shield.html#hd44780)
 
